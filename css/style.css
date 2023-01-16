@@ -1,0 +1,234 @@
+@charset "utf-8";
+
+@keyframes banner {
+  from {
+    background-position: 0 center;
+  }
+  to {
+    background-position: -100% center;
+  }
+}
+* {
+  padding: 0;
+  margin: 0;
+}
+.wrap {
+  width: 100%;
+  height: 150px;
+  background-color: #fff;
+  position: relative;
+}
+.nav {
+  display: flex;
+  justify-content: space-between;
+}
+.nav > ul {
+  background-color: #fff;
+  position: absolute;
+  width: 100%;
+  overflow: hidden;
+}
+.nav > .had > li > ul {
+  display: none;
+}
+.nav > .had > li:hover > ul {
+  display: block;
+}
+.nav > ul > li {
+  position: relative;
+  left: 400px;
+}
+.nav > ul > li > ul > li {
+  margin-bottom: 10px;
+}
+.h {
+  padding: 30px 0 0 50px;
+  z-index: 100;
+}
+.nav > ul {
+  display: flex;
+  color: #d91226;
+}
+.nav > ul > li {
+  margin: 70px 70px 0 70px;
+}
+.n {
+  margin-bottom: 70px;
+}
+.header_r {
+  margin: 70px;
+}
+.above {
+  position: absolute;
+  top: 0;
+  right: 100px;
+  display: flex;
+}
+.above > span {
+  margin: 0 10px 10px 0;
+}
+.above2 {
+  margin-right: 100px;
+  border: 1px solid #f0737b;
+  border-radius: 10px;
+  padding: 0 30px 0 30px;
+  color: #f0737b;
+}
+.main_visual {
+  background-image: url(../img/ba3.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 100vh;
+}
+.main2 {
+  display: flex;
+}
+.coffee_img {
+  display: flex;
+}
+.coffee_img > a > img {
+  width: 250px;
+  height: 250px;
+}
+.line {
+  border-bottom: 5px solid #000;
+  margin: 50px 0 100px 0;
+}
+.m1 {
+  background-image: url(../img/main3.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 50%;
+  height: 500px;
+  padding: 100px;
+  color: #d91226;
+}
+.m1 > h2 {
+  font-weight: bold;
+  font-size: 36px;
+  margin-bottom: 65px;
+}
+.m1 > ul > li:nth-child(1) {
+  text-decoration: underline;
+  font-weight: bold;
+}
+.m1 li {
+  margin-bottom: 30px;
+  font-size: 24px;
+}
+.m2 {
+  padding: 100px;
+  background-color: #eeeeee;
+  width: 50%;
+  height: 500px;
+  color: #d91226;
+}
+.m2 > h2 {
+  font-weight: bold;
+  font-size: 36px;
+  margin-bottom: 90px;
+}
+.m2 > .font {
+  font-size: 24px;
+}
+.intro {
+  padding: 150px;
+  text-align: center;
+  font-size: 80px;
+  color: #d91226;
+}
+.m3 {
+  background-image: url(../img/coffee_main1.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 100vh;
+}
+.animation {
+  border-bottom: 5px solid #d91226;
+  animation: banner 10s infinite linear;
+  background-color: white;
+  background-image: url(../img/logo2.png);
+  background-position: left center;
+  background-size: 12.5%;
+  background-repeat: repeat-x;
+  height: 40px;
+}
+.animation > span {
+  display: flex;
+  font-size: 20px;
+  margin: 20px 20px 20px 0;
+  color: #d91226;
+}
+.animation > span > img {
+  width: 20px;
+  height: 20px;
+}
+.banner_img {
+  display: flex;
+  padding: 50px 80px 50px 80px;
+  border-bottom: 5px solid #d91226;
+}
+.banner_img > div {
+  margin: 0 90px;
+}
+.banner_img > div > img {
+  width: 700px;
+}
+.instar > p {
+  display: flex;
+  justify-content: center;
+  margin: 50px 0 100px 0;
+  color: #d91226;
+  font-size: 30px;
+}
+.sns_img {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 5px solid #d91226;
+  padding-bottom: 100px;
+  padding: 0 50px 50px;
+}
+.sns1 {
+  background-image: url(../img/1.png);
+  width: 558px;
+  height: 558px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.sns2 {
+  background-image: url(../img/main2.jpg);
+  width: 558px;
+  height: 558px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.sns3 {
+  background-image: url(../img/2.png);
+  width: 558px;
+  height: 558px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.footer {
+  text-align: center;
+  background-color: #d91226;
+  width: 100%;
+  padding: 50px 0;
+  color: #fff;
+}
+.footer > ul {
+  display: flex;
+  justify-content: center;
+}
+.footer > ul > li {
+  margin: 0 5px 10px;
+  font-weight: bold;
+}
